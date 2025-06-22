@@ -16,8 +16,8 @@ public class move_stack_in_same_order {
         //and we are putting the element to other stack
         Stack<Integer>st2 = new Stack<>();
         while(s1.size() > 0){
-            int x = s1.pop();
-            st2.push(x);
+            // int x = s1.pop();
+            st2.push(s1.pop());
         }
         System.out.print("Now the second stack is : " + st2);
     }
