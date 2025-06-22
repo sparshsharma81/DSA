@@ -24,7 +24,7 @@ public class stack1 {
         }
 
         public static int pop(){
-            if(isEmpty())return ;
+            if(isEmpty())return -1;
             int top = head.data;
             head= head.next;
             return top;
