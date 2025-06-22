@@ -6,6 +6,7 @@ public class display_stack_using_recurssion {
        s2.push(st.pop());
        stack(st);
     }
+    //here we can use recurssion to print the stack
     public static void main(String args[]){
         Stack<Integer>st = new Stack<>();
         st.push(1);
