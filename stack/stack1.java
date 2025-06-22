@@ -36,6 +36,9 @@ public static void main(String args[])    {
     //we can implement it with ararylist and linkedlist..also array..but it is quite complex
      //arraylist-- if it reach the limit..then it is doubled...
 
+     //we can print directly stack using 
+    //  System.out.println(st);
+    //same for the arraylist....
 
 }
 }
