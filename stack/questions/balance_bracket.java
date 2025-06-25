@@ -4,6 +4,7 @@ public class balance_bracket {
         for(int i=0;i<s.length();i++){
             if(s.charAt(i) == ')' && st.isEmpty())return false; 
             if(s.charAt(i) =='(') st.push('(');
+             if(s.charAt(i) == ')') st.pop(); 
 
         }
         return st.isEmpty();
