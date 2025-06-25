@@ -25,3 +25,5 @@ public class display_stack_using_recurssion {
          System.out.println(s2);
     }
 }
+//if stack is empty and we are removing the elements --- stack underflow 
+//if stack is full (it is unlimitted in linked list) and we are adding element..then stack overflow error 
