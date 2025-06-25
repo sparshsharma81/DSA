@@ -5,8 +5,10 @@ public class remove_bracket_to_balance_string {
         for(int i=0;i<s.length();i++){
             char ch = s.charAt(i);
             if(st.isEmpty() && ch == ')')c++;
-            if()
+            else if(ch == ')')st.pop();
+            else if(ch == '(')st.push(ch);
         }
+        return c + st.size();
     }
     public static void main(String args[]){
         //now we need to find out the minimum number of brackets to be removed in order to balance the string...
