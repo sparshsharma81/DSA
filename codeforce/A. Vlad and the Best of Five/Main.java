@@ -10,7 +10,7 @@ public class Main{
                 if(c == 'A')a1++;
                 
             }
-            if(c == 3)System.out.println("A");
+            if(a1 >= 3)System.out.println("A");
             else System.out.println("B");
         }
     }
