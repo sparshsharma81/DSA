@@ -8,11 +8,15 @@ public class Main{
             int a1 = a%10;
             if(a1 ==0){
                 a/=10;
-                b-=1;
+                // b-=1;
             }
-            else if(b - a1 >= 0){
-                b -= a1;
-                a-=a1;
+            // else if(b - a1 >= 0){
+                // b -= a1;
+                // a-=a1;
+            // }
+            else {
+                a-=1;
+                // b-=1;
             }
 
         }
