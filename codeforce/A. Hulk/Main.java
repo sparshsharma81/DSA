@@ -1,21 +1,19 @@
 import java.util.*;
-public class Main{
+
+public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = a;
-        String a1 = "I hate it";
-        String a2= "I love it";
-        String c = "I hate that";
-        String d = "I love that";
-        while(a!=1){
-            if(a>1)System.out.print(c);
-            a--;
-            if(a>1)System.out.print(d);
-            a--;
+        int n = sc.nextInt();
 
+        StringBuilder sb = new StringBuilder();
+        for (int i = 1; i <= n; i++) {
+            if (i % 2 == 1) sb.append("I hate");
+            else sb.append("I love");
+
+            if (i < n) sb.append(" that ");
+            else sb.append(" it");
         }
-        if(b %2 != 0)System.out.print(a1);
-        else System.out.print(a2);
+
+        System.out.println(sb.toString());
     }
 }
