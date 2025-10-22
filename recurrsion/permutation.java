@@ -17,3 +17,4 @@ public class permutation {
         permutations("", a); 
     }
 }
+//this is the way we can print the permutationns of the string
