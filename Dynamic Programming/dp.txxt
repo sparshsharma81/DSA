@@ -1,0 +1,10 @@
+typically dp has two approachess
+
+1. Top Down Approach (Memoization)
+- In this approach, we start solving the problem from the top (the original problem) and
+    break it down into smaller subproblems recursively.
+- We store the results of these subproblems in a data structure (like an array or a hash map)
+
+    to avoid redundant calculations.
+- When we encounter the same subproblem again, we simply retrieve the stored result instead of
+    recalculating it.
