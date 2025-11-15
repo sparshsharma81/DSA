@@ -1,0 +1,17 @@
+//how to solve a dynamic programming problem 
+typically dp has two approachess    
+1. Top Down Approach (Memoization) --- we tend to store the results in memory
+- In this approach, we start solving the problem from the top (the original problem) and
+    break it down into smaller subproblems recursively.
+
+2. Bottom Up Approach (Tabulation)  
+- In this approach, we solve the problem by first solving all the smaller subproblems and storing their results.
+- We typically use an iterative approach and fill up a DP table (usually an array) based
+
+
+//the basic approach that starts with solving the problem of dp 
+1.we tend to store the indexes of the problems that we have already solved
+--like we tends to represent the problem in terms of indexes    
+2.we do all possible choices at that index
+3.we move to the next index and repeat the same process on the next index
+4.we keep doing this until we reach the base case
