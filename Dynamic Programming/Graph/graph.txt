@@ -1,0 +1,39 @@
+graph are connections of points 
+graph is network of nodes 
+
+each point in a graph is vertex 
+and connection between two points is edge 
+
+//Application of graph 
+//graphs has lots of algorithms
+1. shortest path algorithm
+
+
+
+///Socail Networks
+
+
+//Delivery network 
+
+///like it is used in the shortest cyclic path 
+//the way is divided in such a way that in minimum way..maximum paths are delivered 
+///shortest cyclic path 
+
+//there are different applications of graphs
+
+vertex --- each node in graph ..
+total number of vertexes in graph 
+
+edges -- connection -- which connect two edges , two vertexes 
+
+like some roads are on way ..
+some roads are two directional 
+
+
+
+directed graph --- graph has direction 
+
+undirected graph -- the graph does not have any direction 
+
+weight --- it is the weight of any edge in graph 
+//like for the shortest path..we need to find the minimum weight in graph 

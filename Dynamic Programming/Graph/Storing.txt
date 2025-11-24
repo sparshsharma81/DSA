@@ -1,0 +1,33 @@
+storing a graph in code 
+
+//we store in the form of class 
+
+
+1.Most efficient -- Adjacency List
+2.adjacency matrix 
+3.edge list 
+4.2d matrix 
+
+
+adjacency list -- in this we make list of lists and store them in single list 
+
+all the vertexess which we can directly reach..they are neighbours in terms of graph 
+like graph has a size 
+
+
+//we can store two information  --- source and destination 
+ 0 -> { 0, 2}
+ 1 -> {1,2} , {1,3}
+ 2 -> {2,0} , {2,1} , {2,3}
+ 3 -> {3,1} , {3,2} 
+
+ these are list of lists 
+
+
+ ArrayList<Edge>graph[v] 
+ //like every edge has source and destination
+  static class Edge{
+    int src;
+    int dst;
+    
+  }
