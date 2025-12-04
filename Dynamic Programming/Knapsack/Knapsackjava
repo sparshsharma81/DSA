@@ -1,0 +1,10 @@
+public class knapsack{
+    public static void main(String args[]){
+        /*
+        now we will be solving the knapsack problem
+        which is basically related to the theif and valuables items
+        //like if a thief is there and he want to steel the important luxary items..
+        then how should he pick to get maximum worth with minimum weight
+        */
+    }
+}
