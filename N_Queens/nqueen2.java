@@ -1,5 +1,5 @@
 public class nqueen2 {
-    
+    //thus we return nqueen2
     static int c=0;
     private static void start(char[][] grid, int row){
         int n = grid.length;
