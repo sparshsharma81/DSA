@@ -60,6 +60,9 @@ public class nqueen2 {
         return c;
 
     }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+    }
   
 
 }
