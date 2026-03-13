@@ -1,5 +1,7 @@
 //leetcode -- 17. Letter Combinations of a Phone Number 
 import java.util.*;
+// Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent based on the mapping of digits to letters on a phone keypad. The mapping is as follows:
+// 2: "abc"
 public class letter_combination{
     public class LetterCombinations {
         public List<String> letterCombinations(String digits) {
