@@ -13,7 +13,7 @@ public class leetcode93{
 
         if(s.length() == 0)return;
 
-        //first we take the first character 
+        //first we take the first characters...
           String s1 = "";
 
 
