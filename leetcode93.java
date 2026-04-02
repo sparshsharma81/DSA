@@ -13,7 +13,7 @@ public class leetcode93{
 
         if(s.length() == 0)return;
 
-        //first we take the first character 
+        //first we take the first characters...
           String s1 = "";
 
 
@@ -41,7 +41,7 @@ public class leetcode93{
                
     }
     public List<String> restoreIpAddresses(String s) {
-        //let us try solving this with recurrsion 
+        //let us try 
 
         if(s.length() <4 || s.length() >12)return new ArrayList<>();
         int count =0;
