@@ -1,7 +1,7 @@
 class HeapSort {
     public void heapify(int arr[], int n, int i) {
         int largest = i; // root
-        int left = 2 * i + 1; // left child
+        int left = 2 * i + 1; // left  child
         int right = 2 * i + 2; // right child
 
         // if left child is larger than root
