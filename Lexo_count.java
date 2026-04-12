@@ -6,3 +6,4 @@ public class Lexo_count {
         })
     }
 }
+//here we have used comparator 
