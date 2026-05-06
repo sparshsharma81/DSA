@@ -8,7 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class rotate_list {
     private int size(ListNode head){
         int size =0;
         ListNode h1 = head;
