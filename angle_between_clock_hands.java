@@ -6,6 +6,7 @@ public class angle_between_clock_hands{
         double h = 30 * (hour % 12);
         double m = (5.5) * minutes;
         // double a = (30 * hour) - (11/2)*(minutes);
+        //we use double because the answer can be in decimal and we need to find the absolute value of the angle between hour and minute hand
         double ans =Math.abs(h  - m);
         double min = 360 - ans;
       
