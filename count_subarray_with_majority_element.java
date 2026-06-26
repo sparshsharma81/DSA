@@ -13,6 +13,6 @@ public class count_subarray_with_majority_element{
             }
         }
         return a;
-    
+    ///and subarray
 }
 }
