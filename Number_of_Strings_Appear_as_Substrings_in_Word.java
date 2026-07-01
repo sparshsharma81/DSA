@@ -9,4 +9,3 @@ public class Number_of_Strings_Appear_as_Substrings_in_Word {
         return count;
     }
 }
-
