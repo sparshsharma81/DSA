@@ -40,8 +40,6 @@ public class find_safe_walk_through_grid{
     }
 
         return value(0,0,health,grid1);
-
-       
     }
 }
 }
