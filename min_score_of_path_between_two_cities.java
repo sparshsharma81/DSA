@@ -43,8 +43,6 @@ class min_score_of_path_between_two_cities{
         }
         int min = count(adj,n,n-1);
         return min;
-        
-
     }
 }
 }
