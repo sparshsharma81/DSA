@@ -13,5 +13,6 @@ public class concatenate_non_zero_and_multiply_sum{
         return y * sum;
         
     
+        
 }
 }
