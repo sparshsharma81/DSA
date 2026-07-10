@@ -19,7 +19,5 @@ public class find_index_of_first_occurence{
         
     }
 }
-    public static void main(String args[]){
-
-    }
+   
 }
