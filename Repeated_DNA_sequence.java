@@ -26,6 +26,5 @@ public class Repeated_DNA_sequence {
             if(h.getValue()>1)ans.add(h.getKey());
         }
         return ans;
-
 }
 }
