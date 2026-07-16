@@ -8,6 +8,9 @@ public class gcd_of_odd_and_even_sums{
         }
         return a;
     }
+
+
+    ///gcd of odd and even
     public int gcdOfOddEvenSums(int n) {
         int a = n * n;
         int b = n * (n+1);
@@ -15,3 +18,5 @@ public class gcd_of_odd_and_even_sums{
     }
 }
 }
+
+
