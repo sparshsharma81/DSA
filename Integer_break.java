@@ -9,9 +9,7 @@ public class Integer_break{
         }
         return product * n;
 
-        //so our basic approach for solving this izz 
-        //ki maximum product is that the number must be a multiple of 3;;;
-        //ye question bina dynamic programming ke bhi ho sakta hai....
+
         
 }
 }
