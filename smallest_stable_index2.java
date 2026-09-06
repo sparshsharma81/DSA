@@ -25,7 +25,7 @@ class smallest_stable_index2 {
             // System.out.println(nums3[i] + " " + nums2[i]);
             if(a1 <= k)return i;
         }
-        // for(int i : nums3)System.out.println(i);
+      
         return -1;
     }
 }
